@@ -1,0 +1,272 @@
+/* ---------------- UNIVERSAL CSS ---------------- */
+
+* {
+      box-sizing: border-box;
+}
+
+/* ---------------- GALLERY PAGE CONTENT CSS ---------------- */
+
+@@font-face {
+      font-family: FuturaPTMedium
+      src: url('/fonts/FuturaPTMedium.otf');
+}
+
+document,
+body {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	max-width: 1200px;
+	min-width: 1010px;
+	background: white;
+	height: 100%;
+
+}
+
+header {
+	padding-top: 5px;
+	text-align: center;
+}
+
+header h1{
+      font-family: FuturaPTMedium, sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+}
+
+header hr{
+	position: absolute;
+	top: 55px;
+	width: 100%;
+	z-index: 0;
+}
+
+header h2 {
+	font-size: 40px;
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+nav a {
+      text-decoration: none;
+      color: black;
+}
+
+nav a:hover {
+      color: red;
+}
+
+nav ul {
+	list-style-type: none;
+      font-family: FuturaPTMedium, sans-serif;
+	padding-left: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+	width: 14%;
+}
+
+nav li:hover {
+
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#siteNav {
+	width: 80%;
+      font-family: FuturaPTMedium, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#siteNav li {
+	width: 13%;
+	font-size: 25px;
+}
+
+#sitenav h2 {
+      font-size: 30px;
+}
+
+#galleryNav {
+      font-size: 14px;
+}
+
+.section {
+	position: relative;
+	width: 100%;
+}
+
+.section > h3 {
+	text-align: center;
+}
+
+#icons h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#icons .photo {
+	width: 16.3%
+}
+
+#icons p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+.photo {
+	display: inline-block;
+}
+
+.photo p {
+      font-family: FuturaPTMedium, sans-serif;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.photo img {
+	width: 100%;
+}
+
+#portraits .photo {
+	width: 33%;
+}
+
+#portraits h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#portraits p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#lockScreens .photo {
+	width: 24.7%;
+}
+
+#lockScreens h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#lockScreens p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#referenceSheets .photo {
+	width: 33%;
+}
+
+#referenceSheets h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#referenceSheets p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#conBades .photo {
+	width: 33%;
+}
+
+#conBadges h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#conBadges p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#sketchPages .photo {
+	width: 49.6%;
+}
+
+#sketchPages h3 {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+#sketchPages p {
+      font-family: FuturaPTMedium, sans-serif;
+}
+
+/* ---------------- SOCIAL MEDIA ICON CSS ---------------- */
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+
+.footer-social-links{
+      font-size: 25px;
+      text-align: center;
+      margin-top: 20%;
+}
+
+.footer-social-links a{
+      width: 50px;
+      height: 50px;
+      line-height: 25px !important;
+      position: relative;
+      margin: 0 10px;
+      text-align: center;
+      display: inline-block;
+      color: #111;
+
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.footer-social-links a i,
+.footer-social-links a span{
+      position: relative;
+      top: 15px;
+      left: 0px;
+}
+
+.footer-social-links a:before{
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid #111;
+
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+
+}
+
+.footer-social-links a:hover{
+      color: #fff;
+}
+
+.footer-social-links a:hover:before{
+      background: #111;
+}
